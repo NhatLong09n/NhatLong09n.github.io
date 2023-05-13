@@ -1,43 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nhật Long</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="card">
-      <div class="card__img">
-        <img src="http://i.imgur.comhttps/FMexFHi.png" alt="" />
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You</title>
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="drag-container">
+        <div id="spin-container">
+          <img src="./img/img1.jpg" alt="">
+          <img src="./img/img2.jpg" alt="">
+          <img src="./img/img3.jpg" alt="">
+          <img src="./img/img4.jpg" alt="">
+          <img src="./img/img5.jpg" alt="">
+          <img src="./img/img6.jpg" alt="">
+          <img src="./img/img7.jpg" alt="">
+          <img src="./img/cont.png" alt="">
+          
+            <p>My Love</p>
+          
+        
+        </div>
+        <div id="ground"></div>
       </div>
-      <h2>Nhật Long</h2>
-      <p>Long Bầu Trời</p>
-      <div class="card__social">
-        <a target="_black" href="https://www.facebook.com/profile.php?id=100001966531913&mibextid=ZbWKwL">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a target="_black" href="https://www.youtube.com/@longnhat2846">
-          <i class="fab fa-youtube"></i>
-        </a>
-        <a target="_black" href="https://www.tiktok.com/@beheomapp1?_t=8bcDSbkM27u&_r=1">
-          <i class="fab fa-tiktok"></i>
-        </a>
-        <a
-          target="_black"
-          href="">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <button>Contact me</button>
+      
+      <div id="music-container"></div>
+      <div id="canva">
+      <canvas id="canvas"></canvas>
     </div>
-  </body>
+    <audio src="./music.mp3" autoplay loop></audio>
+    <script src="main.js"></script>
+</body>
 </html>
